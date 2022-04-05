@@ -1,0 +1,51 @@
+.header {
+    overflow: hidden;
+    margin: 0;
+    padding: 15px 0px 0px 10px;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+    line-height: 40px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    color: blue;
+}
+
+.header a.active {
+    background-color: black;
+    color: white;
+}
+.header-center {
+    float: left;
+    padding: 0px 35px;
+}
+
+.header-right {
+    float: right;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+.fa-youtube {
+    padding-right: 10px;
+}
+
+.fa-linkedin-in {
+    padding-right: 10px;
+}
