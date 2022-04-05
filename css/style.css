@@ -1,3 +1,7 @@
+* {
+    pointer-events: none;
+}
+
 .header {
     overflow: hidden;
     margin: 0;
@@ -21,6 +25,7 @@
     line-height: 40px;
     width: 200px;
     border-radius: 4px;
+    pointer-events: auto;
 }
 
 .header a:hover {
@@ -48,4 +53,29 @@
 
 .fa-linkedin-in {
     padding-right: 10px;
+}
+
+.hero .img {
+    float: left;
+}
+
+.profile-description {
+    float: right;
+    padding-right: 50px;
+}
+
+.hero .contact-button {
+    float: left;
+    background-color: red;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px 10px;
+    color: white;
+    pointer-events: auto;
+}
+
+::selection {
+    color: none;
+    background: none;
 }
