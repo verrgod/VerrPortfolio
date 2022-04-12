@@ -47,15 +47,22 @@
     background-color: black;
     color: white;
 }
+
 .header-center {
     float: left;
+    display: block;
     padding: 0px 35px;
 }
 
 .header-right {
     float: right;
+    display: block;
     font-size: 25px;
     padding: 15px 50px 0px 0px;
+}
+
+.header a.hamburger-menu-icon {
+    display: none;
 }
 
 .fa-youtube {
@@ -100,4 +107,19 @@
 ::selection {
     color: none;
     background: none;
+}
+
+@media screen and (max-width: 968px) {
+    .header-center {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header a.hamburger-menu-icon {
+        float: right;
+        display: block;
+    }
 }
